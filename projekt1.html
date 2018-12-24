@@ -1,0 +1,179 @@
+<!Doctype html>
+<html>
+<head><title>Gr21</title>
+<meta charset="UTF-8">
+    <style> 
+      
+    .topbar{width:100%;height:30px;background-color:rgb(255,255,255);margin-left:auto;margin-right:auto;display:flex;}
+    .contactNr{padding:2px 0px 5px 15px;}
+    .contactEm{padding:2px 50px 5px 50px;}
+    
+    
+   .searchbar input{   position: absolute;
+    top: 6px;
+    right: 20px;
+    width:210px;
+    height:25px;
+    border-radius: 50px;
+    background-color:rgb(225,225,225);
+    border: 0px;
+    }
+    
+   .searchbar button{position: absolute;
+    color:white;
+    top: 11px;
+    right: 26px;
+    height:18px;
+    width:18px;
+    background:rgb(0, 0, 0);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 17px;}
+   
+   .menu{width:100%;height:95px;background-color:rgb(34,34,34);margin-left:auto;margin-right:auto;border-bottom:3px solid rgb(124,156,55);}
+   
+   .main-nav{float: right;
+    list-style: none;
+    margin-top:45px;
+    display:flex;}
+            
+   .main-nav li{
+    display: inline-block;
+    padding:1px 20px;
+    text-decoration: none;
+    border-right: 1px solid rgb(130,130,130);
+    color:white;
+    font-size: 12px;
+    font-family: "Georgia";}
+   
+   .elementetnav a{text-decoration:none;color:white;}
+    
+
+   .slideshow{width:100%;height:600px;}
+   .prev{width:40px;height:40px;background-color:black;position:absolute;top:400px;left:1%;border:1px solid grey;border-radius:25px;visibility:hidden}
+   .next{width:40px;height:40px;background-color:black;position:absolute;top:400px;right:1%;border:1px solid grey;border-radius:25px;visibility:hidden}
+   
+   .slideshow:hover .klik{visibility:visible}
+    
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.elementetnav:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown-content:hover{  transition: 1s;}
+    </style>
+</head>
+<body>
+    
+    <div class="topbar">
+     <div class="contactNr">
+     Call Us: xxxxxxxxxxxxxxxxxxxx
+     </div>
+     <div class="contactEm">
+     Email Us: contact@mydomain.com
+     </div>
+                
+     <form class="searchbar" action="">
+     <input type="text" placeholder="" name="search">
+     <button type="submit"><span><img src="C:\Users\Admin\Desktop\search_icon.png" style="width:10px;height:10px;right:4px;position:relative;"></span></button>
+     
+     </form>
+        
+        
+        
+        
+        
+        
+    </div>  
+    
+     <div class="menu">
+         
+         <div class="logo"><img src="C:\Users\Admin\Desktop\logo5.jpg" style="margin-left:50px;width:95px;height:95px;position:absolute"></div>
+         
+         
+         
+       <ul class="main-nav">
+        <li  class="elementetnav"><a href="">HOMEPAGE</a><br>text here
+            <div class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+          </div>
+        </li>
+        <li  class="elementetnav"><a href="">STYLE DEMO</a><br>text here
+            <div class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+          </div>
+        </li>
+        <li  class="elementetnav"><a href="">FULL WIDTH</a><br>text here
+            <div class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+          </div>
+        </li>
+        <li  class="elementetnav"><a href="">PORTOFOLIO</a><br>text here
+        <div class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+          </div>
+        </li>
+        <li  class="elementetnav"><a href="">GALLERY</a><br>text here
+        <div class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+          </div>
+        </li>
+        <li class="elementetnav" ><a href="">DROPDOWN</a><br>text here
+          <div class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+          </div>
+        </li>
+        </ul>
+    
+         
+         
+  
+         
+         
+   </div>   
+    
+
+    
+       
+    
+</body>
+
+
+</html>
