@@ -8,7 +8,8 @@
 	.contactEm{padding:2px 50px 5px 50px;}
 
 	.searchbar input{position: absolute;
-		top:6px;
+		top:11px;
+		right:60px;
 		width:210px;
 		height:25px;
 		border-radius:50px;
@@ -20,7 +21,7 @@
 	      .searchbar button {position:absolute ;
 	      	color:white;
 	      	top:11px;
-	      	right:26;
+	      	right:26px;
 	      	height:18;
 	      	width:18px;
 	      	background-color: rgb(0,0,0,)
@@ -99,7 +100,7 @@
      </div>
                 
      <form class="searchbar" action="">
-     <input type="text" placeholder="" name="search">
+     <inputi type="text" placeholder="" name="search">
      <button type="submit"><span><img src="C:\Users\Admin\Desktop\search_icon.png" style="width:10px;height:10px;right:4px;position:relative;"></span></button>
      
      </form>
@@ -112,55 +113,41 @@
     </div>  
 
      <div class="menu">
-     	<div class="logo"><img src="C:\Users\Admin\Desktop\New folder (3)\paris.png" style="margin-left:50px;width:95px;height:95px;position:absolute"></div>
+     	<div class="logo"><img src="C:\Users\Admin\Desktop\logo5.jpg" style="margin-left:50px;width:95px;height:95px;position:absolute"></div>
          
          
          
          
          
        <ul class="main-nav">
-        <li  class="elementetnav"><a href="">HOMEPAGE</a><br>text here
+        <li  class="elementetnav"><a href="">HOMEPAGE</a>
+           
+        </li>
+        <li  class="elementetnav"><a href="">DESTINATIONS</a>
             <div class="dropdown-content">
-           <a href="#">Link 1</a>
-           <a href="#">Link 2</a>
-           <a href="#">Link 3</a>
+           <a href="#">Europe</a>
+           <a href="#">Asia</a>
+           <a href="#">Africa </a>
+           <a href="#">Australia</a>
+           <a href="#">South America</a>
+           <a href ="#">North America</a>
           </div>
         </li>
-        <li  class="elementetnav"><a href="">STYLE DEMO</a><br>text here
-            <div class="dropdown-content">
-           <a href="#">Link 1</a>
-           <a href="#">Link 2</a>
-           <a href="#">Link 3</a>
-          </div>
+        <li  class="elementetnav"><a href="">HOTELS</a>
+           
         </li>
-        <li  class="elementetnav"><a href="">FULL WIDTH</a><br>text here
-            <div class="dropdown-content">
-           <a href="#">Link 1</a>
-           <a href="#">Link 2</a>
-           <a href="#">Link 3</a>
-          </div>
-        </li>
-        <li  class="elementetnav"><a href="">PORTOFOLIO</a><br>text here
+        <li  class="elementetnav"><a href="">TOURS & ACTIVITIES</a>
         <div class="dropdown-content">
-           <a href="#">Link 1</a>
-           <a href="#">Link 2</a>
-           <a href="#">Link 3</a>
+           <a href="#">Spring</a>
+           <a href="#">Summer</a>
+           <a href="#">Autumn</a>
+           <a href="#">Winter</a>
           </div>
         </li>
-        <li  class="elementetnav"><a href="">GALLERY</a><br>text here
-        <div class="dropdown-content">
-           <a href="#">Link 1</a>
-           <a href="#">Link 2</a>
-           <a href="#">Link 3</a>
-          </div>
-        </li>
-        <li class="elementetnav" ><a href="">DROPDOWN</a><br>text here
-          <div class="dropdown-content">
-           <a href="#">Link 1</a>
-           <a href="#">Link 2</a>
-           <a href="#">Link 3</a>
-          </div>
-        </li>
+        <li class="elementetnav"><a href="">REGISTER</a>
+       
+        <li class="elementetnav" ><a href="">CONTACT</a>
+       
         </ul>
     
          
@@ -205,7 +192,7 @@ hr {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 1485px;
   opacity: 0.9;
 }
 
@@ -266,7 +253,133 @@ a {
 
 
     
+<footer>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .footer{
+            position: fixed;
+         
+    }
+   
+    a:link {
+    color: rgb(197, 52, 52);
+}
+a:visited {
+    color:rgb(197, 52, 52) ;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+body {
+    color: grey;
+     
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.button{
+    background-color: rgb(197, 52, 52);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 10px 14px;
+    cursor: pointer;
+    margin: 4px 0;
 
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    font size: 15px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="column" style="background-color:#282828;">
+    <h2>About Us</h2>
+     <img src="C:\Users\User\travel.png" style="width: 215px;height: 90px;">
+     <br>
+            <p>Getaway is a website that helps people find the perfect destination to have a perfect vacation.</p>
+            <br>          
+            <a href="https://www.lipsum.com/">Read more  &#187;</a>
+            
+  </div>
+  <div class="column" style="background-color:#282828;">
+    <h2>Link Block</h2>
+    <ul id="arrow">
+                <li><a style="text-decoration: none" href=""> &#187; Lorem ipsum dolor sit</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Amet consectetur</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Praesent vel sem id</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Curabitur hendrerit est</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Aliquam eget erat nec sapien</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Cras id augue nunc</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; In nec justo non</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Vivamus mollis enim ut</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Curabitur hendrerit est</a></li>
+            </ul>
+        </div>
+        <div>
+  <div class="column" style="background-color:#282828;">
+    <h2>FROM THE BLOG</h2>
+    <div class="f-lb">
+          <p class="f-text">  Post Title <br>
+            <small>Friday , 6th April 2018</small>
+            <br> Nulla facilisi. Ut fringlla. Suspendisse potenti.
+          </p>
+        </div>
+        <a href="https://www.lipsum.com/">Read more  &#187;</a>
+        <div class="f-lb">
+          <p class="f-text">  Post Title <br>
+            <small>Friday , 6th April 2018</small>
+            <br> Nulla facilisi. Ut fringlla. Suspendisse potenti.
+          </p>
+        </div>
+     <a href="https://www.lipsum.com/">Read more  &#187;</a>
+
+  </div>
+</div>
+<div class="column" style="background-color:#282828;">
+    <h2>CONTACT US</h2>
+    <p>Tel: xxxxx xxxxxxxxxx<br>Fax: xxxxx xxxxxxxxxx<br>Email:<a href="https://www.gmail.com/">contact@mydomain.com</a>
+     <br>
+    <h2>NEWSLETTER</h2>
+    <div>
+            <form action="/action_page.php">
+                <input type="text" id="fname" name="name" placeholder="Name">
+                <input type="text" id="lname" name="email" placeholder="Email">
+            <button class="button">SUBMIT</button>
+          </form>
+</div>
+</div>
+<hr class="footer-hr">
+    <p id="f-cr"><em>Copyright &copy; 2018 All Rights Reserved - Getaway</em></p>
+</body>
+</footer>
+</html>
     
        
     
