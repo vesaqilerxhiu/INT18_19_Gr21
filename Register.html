@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head >
+
 	<title>GETAWAY</title>
 	<meta charset="UTF-8">
 	<style>
@@ -144,7 +145,7 @@
            <a href="#">Winter</a>
           </div>
         </li>
-        <li class="elementetnav"><a href="">REGISTER</a>
+        <li class="elementetnav"><a href="">BOOK NOW & REGISTER</a>
        
         <li class="elementetnav" ><a href="">CONTACT</a>
        
@@ -162,7 +163,7 @@
 
 .container {
   padding: 16px;
-  background: #D2B48C;
+  background="C:\Users\Admin\Desktop\foto5.jpg"
 }
 
 
@@ -186,7 +187,7 @@ hr {
 }
 
 .registerbtn {
-  background-color: red;
+  background-color: darkgreen;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -226,8 +227,39 @@ a {
 
    <form action="action_page.php">
   <div class="container">
-    <h1>Register</h1>
-    <p>Please fill in this form to create an account.</p>
+    
+
+
+    <h1>Book now</h1>
+
+
+  
+
+  <hr>
+    <label for="Origin"><b>Origin</b></label>
+    <input type="text" placeholder="Enter a City" name="Enter a City" required> 
+    
+    <label for="Destination"><b>Destination</b></label>
+    <input type="text" placeholder="Enter a City" name="Enter a City" required>
+
+    	<label for="Check in"><b><b>Check in</b></b></label>
+    	<input type="date" placeholder="mm/dd/yyyy" name="date" required>
+
+    	<label for="Check out">Check out</label>
+    	<input type="date" placeholder="mm/dd/yyyy">
+<br>
+        <br>
+    	<label for="Room">Room</label>
+    	<input type="number" placeholder="Room" required>
+    </br>
+</br>
+    </div>
+
+    <button type="submit" class="rs_search search">Search</button>
+
+    
+  <h1>Register</h1>
+   
     <hr>
     <label for="Username"><b>Username</b></label>
     <input type ="text"placeholder="Enter Username " name="username" required>
@@ -235,154 +267,24 @@ a {
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
     <hr>
-
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
     <button type="submit" class="registerbtn">Register</button>
   </div>
 
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
+  
 </form>
 
 
     
-<footer>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    .footer{
-            position: fixed;
-         
-    }
-   
-    a:link {
-    color: rgb(197, 52, 52);
-}
-a:visited {
-    color:rgb(197, 52, 52) ;
-}
-a:link {
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-}
-body {
-    color: grey;
-     
-}
-* {
-    box-sizing: border-box;
-}
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    height: 300px;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.button{
-    background-color: rgb(197, 52, 52);
-    border: none;
-    color: white;
-    border-radius: 8px;
-    font-size: 15px;
-    padding: 10px 14px;
-    cursor: pointer;
-    margin: 4px 0;
 
-}
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 4px 0;
-    border-radius: 4px;
-    background-color: white;
-    border: none;
-    font size: 15px;
-}
-</style>
-</head>
-<body>
-
-
-
-<div class="row">
-  <div class="column" style="background-color:#282828;">
-    <h2>About Us</h2>
-     <img src="C:\Users\User\travel.png" style="width: 215px;height: 90px;">
-     <br>
-            <p>Getaway is a website that helps people find the perfect destination to have a perfect vacation.</p>
-            <br>          
-            <a href="https://www.lipsum.com/">Read more  &#187;</a>
-            
-  </div>
-  <div class="column" style="background-color:#282828;">
-    <h2>Link Block</h2>
-    <ul id="arrow">
-                <li><a style="text-decoration: none" href=""> &#187; Lorem ipsum dolor sit</a></li>
-                <li><a style="text-decoration: none" href=""> &#187; Amet consectetur</a></li>
-                <li><a style="text-decoration: none" href=""> &#187; Praesent vel sem id</a></li>
-                <li><a style="text-decoration: none" href=""> &#187; Curabitur hendrerit est</a></li>
-                <li><a style="text-decoration: none" href=""> &#187; Aliquam eget erat nec sapien</a></li>
-                <li><a style="text-decoration: none" href=""> &#187; Cras id augue nunc</a></li>
-                <li><a style="text-decoration: none" href=""> &#187; In nec justo non</a></li>
-                <li><a style="text-decoration: none" href=""> &#187; Vivamus mollis enim ut</a></li>
-                <li><a style="text-decoration: none" href=""> &#187; Curabitur hendrerit est</a></li>
-            </ul>
-        </div>
-        <div>
-  <div class="column" style="background-color:#282828;">
-    <h2>FROM THE BLOG</h2>
-    <div class="f-lb">
-          <p class="f-text">  Post Title <br>
-            <small>Friday , 6th April 2018</small>
-            <br> Nulla facilisi. Ut fringlla. Suspendisse potenti.
-          </p>
-        </div>
-        <a href="https://www.lipsum.com/">Read more  &#187;</a>
-        <div class="f-lb">
-          <p class="f-text">  Post Title <br>
-            <small>Friday , 6th April 2018</small>
-            <br> Nulla facilisi. Ut fringlla. Suspendisse potenti.
-          </p>
-        </div>
-     <a href="https://www.lipsum.com/">Read more  &#187;</a>
-
-  </div>
-</div>
-<div class="column" style="background-color:#282828;">
-    <h2>CONTACT US</h2>
-    <p>Tel: xxxxx xxxxxxxxxx<br>Fax: xxxxx xxxxxxxxxx<br>Email:<a href="https://www.gmail.com/">contact@mydomain.com</a>
-     <br>
-    <h2>NEWSLETTER</h2>
-    <div>
-            <form action="/action_page.php">
-                <input type="text" id="fname" name="name" placeholder="Name">
-                <input type="text" id="lname" name="email" placeholder="Email">
-            <button class="button">SUBMIT</button>
-          </form>
-</div>
-</div>
-<hr class="footer-hr">
-    <p id="f-cr"><em>Copyright &copy; 2018 All Rights Reserved - Getaway</em></p>
-</body>
-</footer>
-</html>
     
        
     
+</body>
+<body style="background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTavXgxA0fgc4Vo-MFzPiYtrtWui14MDepi5DAJptej01zMrXeOKA) no-repeat; background-size:100%">
 </body>
 
 
