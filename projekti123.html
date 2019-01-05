@@ -1,0 +1,500 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Gr21</title>
+
+<meta charset="UTF-8">
+<style>
+.bar{width:100%;height:30px;background-color:rgb(255,255,255);margin-left:auto;margin-right:auto;display:flex;}
+    .Nr{padding:2px 0px 5px 15px;}
+    .Em{padding:2px 50px 5px 50px;}
+    
+    
+   .searchbar input{   position: absolute;
+    top: 6px;
+    right: 20px;
+    width:210px;
+    height:25px;
+    border-radius: 50px;
+    background-color:rgb(225,225,225);
+    border: 0px;
+    }
+    
+   .searchbar button{position: absolute;
+    color:white;
+    top: 11px;
+    right: 26px;
+    height:18px;
+    width:18px;
+    background:rgb(0, 0, 0);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 17px;}
+   
+   .menu{width:100%;height:95px;background-color:rgb(34,34,34);margin-left:auto;margin-right:auto;border-bottom:3px solid rgb(124,156,55);}
+   
+   .main-nav{float: right;
+    list-style: none;
+    margin-top:45px;
+    display:flex;}
+            
+   .main-nav li{
+    display: inline-block;
+    padding:1px 20px;
+    text-decoration: none;
+    border-right: 1px solid rgb(130,130,130);
+    color:white;
+    font-size: 12px;
+    font-family: "Georgia";}
+   
+   .elementetnav a{text-decoration:none;color:white;}
+    
+
+   .slideshow{width:100%;height:600px;}
+   .prev{width:40px;height:40px;background-color:black;position:absolute;top:400px;left:1%;border:1px solid grey;border-radius:25px;visibility:hidden}
+   .next{width:40px;height:40px;background-color:black;position:absolute;top:400px;right:1%;border:1px solid grey;border-radius:25px;visibility:hidden}
+   
+   .slideshow:hover .klik{visibility:visible}
+    
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.elementetnav:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown-content:hover{  transition: 1s;}
+
+.boxlarge{
+      width:1000px;margin-left: auto;margin-right: auto;display:flex;
+            }
+      .box{
+          color:white;
+          display:inline-block;
+          width: 225px;height:280px;
+          margin-left:20px;
+          margin-top:50px;
+          margin-bottom:50px;
+          
+          }
+         
+         
+         
+        .top{
+          width:225px;height:140px;
+            }
+        .bot{
+          background-color:rgb(240, 240, 240);width:225px;height:140px;transition:height 2s;
+            }
+          
+          
+        
+           
+       .letter{margin-left: auto;margin-right: auto;width:920px;}
+       #newsletter{text-align:center;padding-bottom:55px;padding-top:55px;margin:0px;font-family:georgia;color:rgb(51, 51, 51);font-size:28px;font-style:oblique;font-weight:normal;}
+     
+         .vendi{padding:10px;margin:0px;color:rgb(124, 156, 55);font-size:24px;font-style:normal;font-weight:normal; }
+         .description{padding-left:10px;margin:0px;color:rgb(102, 102, 102);font-size:14px;font-style:normal;font-weight:normal; }
+        .paint{width:800px;border:1.5px solid rgb(232, 232, 232);
+                   border-top-right-radius: 1000px 10px;
+                   border-top-left-radius: 1000px 10px;
+                   border-bottom-right-radius: 1000px 10px;
+                   border-bottom-left-radius: 1000px 10px;
+                   margin-left: auto;margin-right: auto;}
+          
+          
+          
+          
+          
+         span.hiddentext{display:none}
+        .box:hover span.hiddentext{display:block;}
+        .box:hover .bot{height:240px}
+        
+        .boxlarge:hover + .paint{margin-top:240px}
+
+
+      .pjesa{width:1000px;height:435px;margin-left:auto;margin-right:auto;display:flex;}      
+      .kit{width:490px;height:355px;border-top: 2px solid rgb(232,232,232);margin-top:80px;}     
+      .got{width:490px;height:355px;border-top: 2px solid rgb(232,232,232);margin-left:20px;margin-top:80px;}     
+      
+      
+      
+      .emilia{width:490px;height:80px;position:absolute;}
+      
+      .emilia1{width:250px;height:177.5px;position:absolute;}     
+      .emilia2{width:250px;height:177.5px;position:absolute;margin-left:250px;}         
+      .emilia3{width:250px;height:177.5px;position:absolute;margin-top:177.5px;}   
+      .emilia4{width:250px;height:177.5px;position:absolute;margin-top:177.5px;margin-left:250px;}       
+      .fotoemilia{background-color:rgb(53,53,53);width:45px;height:45px;margin-top:20px;margin-left:20px;position:absolute;}
+      .shkrimiemilia{width:160px;height:150px;margin-left:75px;margin-top:20px;}       
+      
+      
+      .jon{width:490px;height:80px;position:absolute;margin-left:510px; }
+      
+      .jon1{width:225px;height:225px;position:absolute;margin-top:22px;margin-left:10px;}      
+      .jon2{width:225px;height:225px;position:absolute;margin-top:22px;margin-left:255px;}       
+      .shkrimijon1{width:225px;height:108px;position:absolute;margin-top:247px;margin-left:10px;}
+      .shkrimijon2{width:225px;height:108px;position:absolute;margin-top:247px;margin-left:255px;}
+      .shkronjatemilia{margin:0px;padding-left:2px;padding-top: 0px;font-family:georgia;font-size:15px;color:rgb(124, 156, 55);font-weight:bolder;}
+      .shkrim{margin:0px;padding-left:2px;padding-top: 5px;font-family:georgia;color:black;font-size:15px;}
+  
+   footer{
+            position: fixed;
+         background-color:#282828;
+             width:90%;
+             height:70%;
+             margin-right:100%;
+    }
+   
+    .a:link {
+    color: rgb(197, 52, 52);
+}
+.a:visited {
+    color:rgb(197, 52, 52) ;
+}
+.a:link {
+    text-decoration: none;
+}
+.a:visited {
+    text-decoration: none;
+}
+body {
+    color: grey;
+     
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 42px;
+    height: 400px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.button{
+    background-color: rgb(197, 52, 52);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 10px 14px;
+    cursor: pointer;
+    margin: 4px 0;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border-radius: 4px;
+    background-color: rgb(51, 47, 47);
+    border: none;
+    font size: 15px;
+}
+
+
+</style>
+   
+      
+    
+    
+
+    
+</head>
+<body>
+    
+    <div class="bar">
+     <div class="Nr">
+     Call Us: xxxxxxxxxxxxxxxxxxxx
+     </div>
+     <div class="Em">
+     Email Us: contact@mydomain.com
+     </div>
+                
+     <form class="searchbar" action="">
+     <input type="text" placeholder="" name="search">
+     <button type="submit"><span><img src="C:\Users\Admin\Desktop\search_icon.png" style="width:10px;height:10px;right:4px;position:relative;"></span></button>
+     
+     </form>
+        
+        
+        
+        
+        
+        
+    </div>  
+    
+     <div class="menu">
+         
+         <div class="logo"><img src="https://i-lab.harvard.edu/innolabs/wp-content/uploads/sites/5/2015/08/getaway_logo.png" style="margin-left:50px;width:95px;height:95px;position:absolute"></div>
+         
+         
+         
+       <ul class="main-nav">
+        <li class="elementetnav"><a href="projekti123.html" id="active">HOMEPAGE</a>
+            
+        </li>
+        <li class="elementetnav"><a href="DESTINATION.HTML" id="active">DESTINATIONS</a>
+            <div class="dropdown-content">
+           <a href="#">Europe</a>
+           <a href="#">Asia</a>
+           <a href="#">Africa</a>
+           <a href="#">Austrialia</a>
+           <a href="#">South America</a>
+           <a href="#">North America</a>
+          </div>
+        </li>
+        <li  class="elementetnav"><a href="Donika.html" id="active">HOTELS</a>
+         
+        </li>
+        <li  class="elementetnav"><a href="Vesa1.html" id="active">TOURS & ACTIVITIES</a>
+        <div class="dropdown-content">
+           <a href="#">Spring</a>
+           <a href="#">Summer</a>
+           <a href="#">Autumn</a>
+           <a href="#">Winter</a>
+          </div>
+        </li>
+        <li class="elementetnav" ><a href="Register.html" id="active">BOOK NOW & REGISTER</a>
+      
+        </li>
+        <li class="elementetnav"><a href="contact us.html" id="active">CONTACT</a>
+          
+        </li>
+        </ul>
+    
+         
+         
+  
+         
+         
+   </div>  
+
+
+  
+      
+
+
+
+
+
+
+
+    <div class="slideshow">
+        <div class="videoja">
+        <video autoplay muted style="width:100%;height:100%">
+  <source src="C:\Users\Vesa\Desktop\costa-rica.mp4" type="video/mp4">
+</video>
+        </div>
+<button class="prev klik" type="button" onclick="#"><img src="https://cdn3.iconfinder.com/data/icons/up-side-down/100/42_left-512.png" style="width:30px; height:25px;padding-right:5px;padding-top:2px;cursor: pointer;"></button>
+    
+    <button class="next klik" type="button" onclick="#"><img src="https://cdn3.iconfinder.com/data/icons/up-side-down/100/45_right-512.png" style="width:30px; height:25x;padding-left:5px;padding-top:2px;cursor: pointer;"></button>
+
+    
+       
+    
+<div class="letter"> 
+              <h1 id="newsletter">“Travel makes one modest. You see what a tiny place you occupy in the world”</h1>
+     
+</div>
+
+     <div class="paint"></div>
+     
+   <div class="boxlarge">
+         
+     <div class="box"> 
+        <div class="top">
+           <img src="https://img.jakpost.net/c/2018/02/01/2018_02_01_39875_1517462499._large.jpg" style="width:100%;height:100%"  ></a>
+        </div>             
+        <div class="bot">
+           <h2  class="vendi">Bali, Indonesia</h2>
+           <p  class="description">Travelers enjoy Bali for its white sand beaches, snorkeling among coral reefs and shipwrecks, the sacred monkey forest and the Tanah Lot Temple. Shown, Ulun Danu Park.</span></p>
+        </div> 
+     </div>
+            
+     <div class="box"> 
+        <div class="top">
+           <img src="https://photos.mandarinoriental.com/is/image/MandarinOriental/paris-2017-home?wid=2880&hei=1280&fmt=jpeg&crop=9,336,2699,1200&anchor=1358,936&qlt=75,0&fit=wrap&op_sharpen=0&resMode=sharp2&op_usm=0,0,0,0&iccEmbed=0&printRes=72" style="width:100%;height:100%" ></a>
+        </div>  
+        <div class="bot">
+           <h2  class="vendi">Paris, France</h2>
+           <p  class="description">Paris is always a good idea. Rich with food, art and romance, there's so much to see and do. Ride a boat on the Seine or sit in a cafe with a view of the Eiffel Tower, the Arc de Triomphe, or Notre Dame.</span></p>
+        </div> 
+     </div>
+             
+       
+       
+     <div class="box"> 
+        <div class="top">
+           <img src="https://www.eloundabeach.gr/media/1038/lassithi.jpg" style="width:100%;height:100%" ></a>
+        </div>  
+        <div class="bot">
+           <h2 class="vendi">Crete, Greece</h2>
+           <p  class="description">The island of Crete is rich with archaeological and mythological history that's reflected in its ancient ruins and cultural attractions. The least expensive month to go is August, when it is also hottest.</span></p>
+        </div>
+     </div>
+             
+       
+       
+     <div class="box"> 
+         <div class="top">
+           <img src="https://chilesomostodos.gob.cl/chilesomostodos/site/artic/20181221/imag/foto_0000000220181221112017/cusco.jpg" style="width:100%;height:100%" ></a>
+         </div>  
+         <div class="bot">
+           <h2 class="vendi">Cusco, Peru</h2>
+           <p  class="description">Once the capital of the Incan empire, high-altitude Cusco is famous for its ruins, stone streets, Qoriacancha palace and the church of Santo Domingo on the Plaza de Armas, the central square.</span></p>
+         </div> 
+      </div>
+                          
+  </div>
+ 
+     <div class="paint"></div>
+     
+     
+
+<div class="pjesa">   
+     
+     
+     <div class="emilia"><p style="margin-top:50px;font-size:20px">Places to visit</p></div>
+     <div class="jon"><p style="margin-top:50px;font-size:20px">CEO</p></div>
+    
+      <div class="kit">
+          
+          <div class="emilia1">
+          <div class="fotoemilia"><img src="https://recruitmentbuzz.co.uk/wp-content/uploads/europe-physical-map-large.jpg" width="48px" height="48px"> </div> 
+          <div class="shkrimiemilia"><h2 class="shkronjatemilia">Europe</h2><p class="shkrim"> Rome, Paris, Milan, London, Amsterdam, Dublin, Athens, Barcelona, Istanbul, Dubrovnik, Venice.</p></div>
+          </div>
+          
+          <div class="emilia2">
+          <div class="fotoemilia"> <img src="https://www.ezilon.com/maps/images/Asia-physical-map.gif" width ="48px" height="48px"></div>
+          <div class="shkrimiemilia"><h2 class="shkronjatemilia">Asia</h2><p class="shkrim"> Tokyo, Seoul, Bangkok, Hong Kong, Mumbai, Beijing, Shanghai, Kyoto, Macau, Singapore, Kuala Lampur.</p></div>
+          </div>
+          
+          <div class="emilia3">
+          <div class="fotoemilia"> <img src="https://mapswire.com/maps/africa/africa-physical-map-large.jpg" width="48px" height="48px"></div>
+         <div class="shkrimiemilia"><h2  class="shkronjatemilia">Africa</h2><p class="shkrim"> Cairo, Lagos, Kinshasa, Nairobi, Launda, Mogadishu, Alexandria, Johannesburg, Accra.</p></div>
+          </div>
+          
+          <div class="emilia4">
+          <div class="fotoemilia"><img src="https://www.worldatlas.com/r/w750/maps/sa/physical.png" width="48px" height="48px"></div>
+          <div class="shkrimiemilia"><h2 class="shkronjatemilia">South America</h2><p class="shkrim"> Buenos Aires, Rio de Janeiro, Santiago, La Paz, Quito, Medellin, Cusco, Cartagena.</p></div>
+          </div>
+                
+      </div>
+      <div  class="got">
+                 
+          
+ 
+    
+         
+         <div class="jon1"><img src="https://s1.r29static.com//bin/entry/a34/720x864,80/1970977/image.jpg" width="170px" height="200px"></div>
+         <div class="jon2"> <img src="https://media.gq.com/photos/5583cbb209f0bee564425909/master/w_800/style-blogs-the-gq-eye-kit-harington-hair.jpg" width="170px" height="200px"> </div>
+         <div class="shkrimijon1"><p id="shkrim"><span style="color:black;font-weight:900">Name:</span> Emilia Clarke<p>  <a style="text-decoration:none;color:rgb(124, 156, 55)" href="#">View Profile »</a></div>
+         <div class="shkrimijon2"><p id="shkrim"><span style="color:black;font-weight:900">Name:</span> Jon Snow<p>  <a style="text-decoration:none;color:rgb(124, 156, 55)" href="#">View Profile »</a></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<footer style="position:absolute;margin-top:500px;">
+
+
+
+<div class="row">
+  <div class="column" style="background-color:#282828;">
+    <h2>About Us</h2>
+    <img src="https://cbsboston.files.wordpress.com/2015/07/getaway.jpg?w=625" style="width: 215px;height: 90px;">
+     <br>
+            <p>Getaway is a website that helps people find the perfect destination to have a perfect vacation.</p>
+            <br>          
+            <a href="https://www.lipsum.com/">Read more  &#187;</a>
+            
+  </div>
+  <div class="column" style="background-color:#282828;">
+    <h2>Link Block</h2>
+    <ul id="arrow">
+                <li><a style="text-decoration: none" href=""> &#187; Lorem ipsum dolor sit</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Amet consectetur</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Praesent vel sem id</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Curabitur hendrerit est</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Aliquam eget erat nec sapien</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Cras id augue nunc</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; In nec justo non</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Vivamus mollis enim ut</a></li>
+                <li><a style="text-decoration: none" href=""> &#187; Curabitur hendrerit est</a></li>
+            </ul>
+        </div>
+        <div>
+  <div class="column" style="background-color:#282828;">
+    <h2>FROM THE BLOG</h2>
+    <div class="f-lb">
+          <p class="f-text">  Post Title <br>
+            <small>Friday , 6th April 2018</small>
+            <br> Nulla facilisi. Ut fringlla. Suspendisse potenti.
+          </p>
+        </div>
+        <a href="https://www.lipsum.com/">Read more  &#187;</a>
+        <div class="f-lb">
+          <p class="f-text">  Post Title <br>
+            <small>Friday , 6th April 2018</small>
+            <br> Nulla facilisi. Ut fringlla. Suspendisse potenti.
+          </p>
+        </div>
+     <a href="https://www.lipsum.com/">Read more  &#187;</a>
+
+  </div>
+</div>
+<div class="column" style="background-color:#282828;">
+    <h2>CONTACT US</h2>
+    <p>Tel: xxxxx xxxxxxxxxx<br>Fax: xxxxx xxxxxxxxxx<br>Email:<a href="https://www.gmail.com/">contact@mydomain.com</a>
+     <br>
+    <h2>NEWSLETTER</h2>
+    <div>
+            <form action="/action_page.php">
+                <input type="text" id="fname" name="name" placeholder="Name">
+                <input type="text" id="lname" name="email" placeholder="Email">
+                <br>
+            <button class="button">SUBMIT</button>
+            </br>
+</div>
+</form>
+
+</footer>
+
+</html>
