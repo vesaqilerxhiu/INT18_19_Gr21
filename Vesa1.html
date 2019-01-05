@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+<head><title>Gr21</title>
+<meta charset="UTF-8">
+    <style> 
+      
+    .topbar{width:100%;height:30px;background-color:rgb(255,255,255);margin-left:auto;margin-right:auto;display:flex;}
+    .contactNr{padding:2px 0px 5px 15px;}
+    .contactEm{padding:2px 50px 5px 50px;}
+    
+    
+   .searchbar input{   position: absolute;
+    top: 6px;
+    right: 20px;
+    width:210px;
+    height:25px;
+    border-radius: 50px;
+    background-color:rgb(225,225,225);
+    border: 0px;
+    }
+    
+   .searchbar button{position: absolute;
+    color:white;
+    top: 11px;
+    right: 26px;
+    height:18px;
+    width:18px;
+    background:rgb(0, 0, 0);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 17px;}
+   
+   .menu{width:100%;height:95px;background-color:rgb(34,34,34);margin-left:auto;margin-right:auto;border-bottom:3px solid rgb(124,156,55);}
+   
+   .main-nav{float: right;
+    list-style: none;
+    margin-top:45px;
+    display:flex;}
+            
+   .main-nav li{
+    display: inline-block;
+    padding:1px 20px;
+    text-decoration: none;
+    border-right: 1px solid rgb(130,130,130);
+    color:white;
+    font-size: 12px;
+    font-family: "Georgia";}
+   
+   .elementetnav a{text-decoration:none;color:white;}
+    
+   .slideshow{width:100%;height:600px;}
+   .prev{width:40px;height:40px;background-color:black;position:absolute;top:400px;left:1%;border:1px solid grey;border-radius:25px;visibility:hidden}
+   .next{width:40px;height:40px;background-color:black;position:absolute;top:400px;right:1%;border:1px solid grey;border-radius:25px;visibility:hidden}
+   
+   .slideshow:hover .klik{visibility:visible}
+    
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.elementetnav:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content:hover{  transition: 1s;}
+    </style>
+</head>
+<body>
+    
+    <div class="topbar">
+     <div class="contactNr">
+     Call Us: xxxxxxxxxxxxxxxxxxxx
+     </div>
+     <div class="contactEm">
+     Email Us: contact@mydomain.com
+     </div>
+                
+     <form class="searchbar" action="">
+     <input type="text" placeholder="" name="search">
+     <button type="submit"><span><img src="C:\Users\Admin\Desktop\search_icon.png" style="width:10px;height:10px;right:4px;position:relative;"></span></button>
+     
+     </form>
+        
+        
+        
+        
+        
+        
+    </div>  
+    
+     <div class="menu">
+         
+         <div class="logo"><img src="C:\Users\Admin\Desktop\logo5.jpg" style="margin-left:50px;width:95px;height:95px;position:absolute"></div>
+         
+         
+         
+       <ul class="main-nav">
+        <li  class="elementetnav"><a href="">HOMEPAGE</a>
+            
+        </li>
+        <li  class="elementetnav"><a href="">DESTINATIONS</a>
+            <div class="dropdown-content">
+           <a href="#">Europe</a>
+           <a href="#">Asia</a>
+           <a href="#">Africa</a>
+           <a href="#">Austrialia</a>
+           <a href="#">South America</a>
+           <a href="#">North America</a>
+          </div>
+        </li>
+        <li  class="elementetnav"><a href="">HOTELS</a>
+         
+        </li>
+        <li  class="elementetnav"><a href="">TOURS & ACTIVITIES</a>
+        <div class="dropdown-content">
+           <a href="#">Spring</a>
+           <a href="#">Summer</a>
+           <a href="#">Autumn</a>
+           <a href="#">Winter</a>
+          </div>
+        </li>
+        <li  class="elementetnav"><a href="">BOOK NOW & REGISTER</a>
+      
+        </li>
+        <li class="elementetnav"><a href ="">CONTACT</a>
+          
+        </li>
+        </ul>
+    
+         
+         
+  
+         
+         
+   </div>  
+
+
+
+
+
+
+    
+
+    
+       
+    
+</body>
+
+    <head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+    
+        <style>
+       .vesa{
+      width:1300px;height:380px;background-color:white;margin-left: auto;margin-right: auto;display:flex;
+            }
+      .box {
+             color:black;
+             display:inline-block;
+          width: 300px;height:380px;
+          background-color:rgb(255,255,255);
+          margin-left:20px;
+          margin-bottom:20px;
+          text-align: center;
+          
+         }
+        .top{
+          width:300px;height:200px;position:relative;
+          }
+        .bot{
+          width:300px;height:180px;
+          }
+      
+         p{padding:7px;margin:0px;color:rgb(102, 102, 102);font-size:16px;text-align:center;}
+         
+         .vija{width:800px;border:1.5px solid rgb(0, 0, 0);
+                   border-top-right-radius: 1000px 10px;
+                   border-top-left-radius: 1000px 10px;
+                   border-bottom-right-radius: 1000px 10px;
+                   border-bottom-left-radius: 1000px 10px;
+               margin-left: auto;margin-right: auto;}
+            h1{text-align:center;margin:20px;}
+         
+      .rating {color:black;text-align:center;font-size:28px;margin:0px;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+   .hov{color:white;padding:10px;background-color:rgba(0,0,0,1);width:25%;margin-left: auto;margin-right: auto;cursor:pointer;
+  }
+  
+.hov:hover{ color:black;background-color: rgba(255,255,255,1);}
+.hov{ text-align:center;
+    position: absolute;
+  top:110px;
+  
+  right: 40px;
+  left:40px;
+ 
+  background-color: black;
+  color: white;
+  padding:10px;
+visibility: hidden;}
+.top:hover > h4{visibility: visible;}
+
+
+.vesa1{text-align:center;font-size:30px;margin:0px;padding:20px;font-family:Georgia;}
+.vesa2{font-family:Georgia;font-weight:lighter;}	
+
+.vesa3{width:1000px;height:250px;position:relative;margin-left: auto;margin-right: auto;display:block;}
+
+
+        </style>
+       
+            
+            
+ 
+            
+            
+            
+
+        
+    </head>
+    <body>            
+            
+                  
+        <h1 style="border:2px solid LightGray;">Tours Around The World</h1>
+
+ <div><img  class="vesa3" src="C:\Users\Vesa\Desktop\vesa.png"></div>
+<h2  class="vesa1" >Europe Tour</h2>
+        <div class="vesa">
+ 
+            
+             <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\tour1.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">View more</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Tour Map</h2>
+                   
+                     <p >$1,000.00 <del>$1800.00</del>  <span style="border:1px solid black;padding:2px;"> SAVE 40%</span></p>
+                     
+                           
+ 
+                     
+                 </div> 
+             </div>
+            
+       
+       <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\franca.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">France</h2>
+                     
+                     <p > <b> Visit Eiffel Tower </b> <br> Gustave Eiffel's iconic, wrought-iron 1889 tower, with steps and elevators to observation decks. </br > </p>
+                     
+                        
+ 
+                     
+                 </div> 
+             </div>
+            
+            
+            
+            <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\swiss.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Switzerland</h2>
+                    
+                     <p > <b> Visit Swiss Alps </b> <br> Standing at 4,357 m., this peak offers challenging, multi-day guided hikes to the summit. </br></p>
+                     
+                        
+ 
+                     
+                 </div> 
+             </div>
+            
+            
+            
+            <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\germany.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Germany</h2>
+                    
+                     
+                    <p > <b> Visit Charlottenburg Palace </b> <br> Baroque summer palace with huge gardens & rooms packed with paintings, tapestries & porcelain. </br></p>
+                     
+ 
+                     
+                 </div> 
+             </div>
+        
+        </div>
+        
+                          
+                    
+
+
+
+ 
+ 
+ 
+ <h2  class="vesa1" >USA Tour</h2>
+        <div class="vesa">
+
+            
+             <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\usa.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">View more</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Tour Map</h2>
+                    
+                     <p >$1,900.00 <del>$3,000.00</del>  <span style="border:1px solid black;padding:2px;"> SAVE 30%</span></p>
+                     
+                           
+ 
+                     
+                 </div> 
+             </div>
+            
+       
+       <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\new.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">New York</h2>
+                   
+                     <p > <b> Visit Times Square </b> <br> Bustling destination in the heart of the Theater District known for bright lights, shopping & shows. </br> </p>
+                     
+                        
+ 
+                     
+                 </div> 
+             </div>
+            
+            
+            
+            <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\holly.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Los Angeles</h2>
+                    
+                     <p > <b> Visit The Hollywood Sign </b> <br> Erected in 1923, this symbolic landmark on Mount Lee is often viewed from Griffith Park Observatory. </br> </p>
+                     
+                        
+ 
+                     
+                 </div> 
+             </div>
+            
+            
+            
+            <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\mount.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">North Dakota</h2>
+                    
+                     <p > <b> Visit Mount Rushmore </b><br> The sculpture faces depict U.S. presidents George Washington, Thomas Jefferson, Theodore Roosevelt and Abraham Lincoln. </br></p>
+                     
+                         
+ 
+                     
+                 </div> 
+             </div>
+        
+        </div>
+        
+                  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  <h2  class="vesa1" >Asia Tour</h2>
+        <div class="vesa">
+
+            
+             <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\asia.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">View more</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Tour Map</h2>
+                   
+                     <p >$2,300.00 <del>$3,700.00</del>  <span style="border:1px solid black;padding:2px;"> SAVE 40%</span></p>
+                     
+                           
+ 
+                     
+                 </div> 
+             </div>
+            
+       
+       <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\dubai.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Dubai</h2>
+                     
+                     <p > <b> Visit Burj Khalifa </b> <br> Spired 828-meter skyscraper with a viewing deck, restaurant, hotel and offices and 11-hectare park. </br></p>
+                     
+                        
+ 
+                     
+                 </div> 
+             </div>
+            
+            
+            
+            <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\taj.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">India</h2>
+                   
+                     <p > <b> Visit Taj Mahal </b> <br> 17th-century, Mughal-style, marble mausoleum with minarets, a mosque & famously symmetrical gardens.</br></p>
+                     
+                        
+ 
+                     
+                 </div> 
+             </div>
+            
+            
+            
+            <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\tokyo.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Japan</h2>
+                   
+                     <p > <b> Visit Sensō-ji </b><br> Completed in 645, this temple, Tokyo's oldest, was built to honor Kannon, the goddess of mercy.
+
+</p>
+
+
+                     
+                 </div> 
+             </div>
+        
+        </div>
+  
+  
+   <h2  class="vesa1" >Africa Tour</h2>
+        <div class="vesa">
+
+            
+             <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\africa.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">View more</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Tour Map</h2>
+                    
+                     <p >$3,000.00 <del>$3,600.00</del>  <span style="border:1px solid black;padding:2px;"> SAVE 15%</span></p>
+                     
+                           
+ 
+                     
+                 </div> 
+             </div>
+            
+       
+       <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\piramida.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Egypt</h2>
+                   
+                     <p > <b> Visit The Great Pyramid of Giza </b> <br> Famed archaeological site featuring the Great Pyramids, the Great Sphinx & other well-known ruins. </br></p>
+                     
+                        
+ 
+                     
+                 </div> 
+             </div>
+            
+            
+            
+            <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\cc.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Cape Town</h2>
+                    
+                     <p > <b> Visit the Cape of Good Hope </b> <br> Tip of the Cape Peninsula forming part of a protected wildlife reserve with picnic spots and walks. </br> </p>
+                     
+                        
+ 
+                     
+                 </div> 
+             </div>
+            
+            
+            
+            <div class="box">  
+                 <div class="top"> <a href="#">
+                     
+                      
+                          <img src="C:\Users\Vesa\Desktop\zambia.png" style="width:100%;height:100%" >
+                     </a>
+                          <h4 class="hov">Check prices</h4>
+                 </div> 
+                 
+                 <div class="bot">
+                 
+                     <h2 class="vesa2">Zambia</h2>
+                   
+                     <p > <b> Visit Victoria Falls </b> <br> This waterfall is famous for its enormous size & has a natural pool where visitors can swim. </br></p>
+                     
+                         
+ 
+                     
+                 </div> 
+             </div>
+        
+        </div> 
+ 
+    </body>
+</html>
